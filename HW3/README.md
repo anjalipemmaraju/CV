@@ -1,6 +1,6 @@
 # Lucas Kanade (and variants)
 ### Background
-Lucas Kanade is an algorithm relating to optical flow, or the way of describing how pixels are moving between frames. In the general case, it uses the gradient of the image with respect to x and y and the change in pixel intensities to determine where a template image is in the current image. This implementation attempts to use Lucas Kanade to track different objects throughout a sequence of image frames.
+Lucas Kanade is an algorithm relating to optical flow, or the way of describing how pixels are moving between frames. In the general case, it uses the gradient of the image with respect to x and y and the change in pixel intensities to determine where a template image is in the current image. This implementation attempts to use Lucas Kanade to track different objects throughout a sequence of image frames. A description of the tasks is provided in hw3.pdf.
 
 ### Code
 The code folder contains all the code for this project.
