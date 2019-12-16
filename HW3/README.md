@@ -1,6 +1,10 @@
 # Lucas Kanade (and variants)
 ### Background
+<<<<<<< HEAD
 Lucas Kanade is an algorithm relating to optical flow, or the way of describing how pixels are moving between frames. In the general case, it uses the gradient of the image with respect to x and y and the change in pixel intensities to determine where a template image is in the current image. This implementation attempts to use Lucas Kanade to track different objects throughout a sequence of image frames. A description of the tasks is provided in hw3.pdf.
+=======
+Lucas Kanade is an algorithm relating to optical flow, or the way of describing how pixels are moving between frames. In the general case, it uses the gradient of the image with respect to x and y and the change in pixel intensities to determine where a template image is in the current image. This implementation attempts to use Lucas Kanade to track different objects throughout a sequence of image frames. A description of the tasks is provided in hw3.pdf. Data is 100 MB and cannot be uploaded to github right now.
+>>>>>>> 433a14c9bf929ddd16114ca561c67f3316b7c49e
 
 ### Code
 The code folder contains all the code for this project.
@@ -16,7 +20,14 @@ The code folder contains all the code for this project.
 
 ### Results
 The results folder contains images of the tracking performance of each algorithm
+<<<<<<< HEAD
 * Files beginning with LK_(number) show images of tracking performance of the car driving with simple LucasKanade
 * Files beginning with LK_aerial show images of tracking performance using a mask to represent changed pixels in the aerial sequence using LucasKanadeAffine
 * Files beginning with LK_wcrt show images of tracking performance of the car driving with LucasKanade with template correction
 * Files beginning with LKB show images of tracking performance of the Sylvester stuffed animal using LucasKanade with Basis
+=======
+* Files beginning with LK_ show images of tracking performance of the car driving with simple LucasKanade over frames 1, 100, 200, 300 and 400.
+* Files beginning with LK_aerial show images of tracking performance using a mask to represent changed pixels in the aerial sequence using LucasKanadeAffine over frames 30, 60, 90, and 120.
+* Files beginning with LK_wcrt show images of tracking performance of the car driving with LucasKanade with template correction over frames 1, 100, 200, 300, and 400.
+* Files beginning with LKB show images of tracking performance of the Sylvester stuffed animal using LucasKanade with Basis over frames 1, 100, 200, 300, 350, and 400.
+>>>>>>> 433a14c9bf929ddd16114ca561c67f3316b7c49e
