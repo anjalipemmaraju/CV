@@ -1,6 +1,6 @@
 # Structure From Motion
 
-Given two camera views of an object, we want to be able to calculate a transformation of some points in those camera frames to get a 3D representation of the object. We assume that we only have images from 2 cameras. More detail about the assignment is in hw4.pdf
+Given two camera views of an object, we want to be able to calculate a transformation of some points in those camera frames to get a 3D representation of the object. We assume that we only have images of a simple temple from 2 cameras. More detail about the assignment is in hw4.pdf
 
 ### Code
 * submission.py : main file that has functions to calculate the fundamental matrix using the 8 point algorithm, 7 point algorithm, and RANSAC. It also contains functions to determine the reprojection error of points from 2 images, and a function to find the points in image 2 that correspond to points in image 1. The final function uses the Rodrigues formula to calculate Bundle Adjustment on a set of noisy correspondences between 2 camera frames.
