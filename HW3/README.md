@@ -16,7 +16,7 @@ The code folder contains all the code for this project.
 
 ### Results
 The results folder contains images of the tracking performance of each algorithm
-* Files beginning with LK_(number) show images of tracking performance of the car driving with simple LucasKanade
-* Files beginning with LK_aerial show images of tracking performance using a mask to represent changed pixels in the aerial sequence using LucasKanadeAffine
-* Files beginning with LK_wcrt show images of tracking performance of the car driving with LucasKanade with template correction
-* Files beginning with LKB show images of tracking performance of the Sylvester stuffed animal using LucasKanade with Basis
+* Files beginning with LK_ show images of tracking performance of the car driving with simple LucasKanade over frames 1, 100, 200, 300 and 400.
+* Files beginning with LK_aerial show images of tracking performance using a mask to represent changed pixels in the aerial sequence using LucasKanadeAffine over frames 30, 60, 90, and 120.
+* Files beginning with LK_wcrt show images of tracking performance of the car driving with LucasKanade with template correction over frames 1, 100, 200, 300, and 400.
+* Files beginning with LKB show images of tracking performance of the Sylvester stuffed animal using LucasKanade with Basis over frames 1, 100, 200, 300, 350, and 400.
